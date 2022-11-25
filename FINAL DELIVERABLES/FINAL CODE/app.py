@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 from markupsafe import escape
 
 import ibm_db
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=30119;SECURITY=SSL;SSLServerCertificate=RootCertificate.crt;UID=yjp31702;PWD=EGg6eYAGQNUeO2dY",'','')
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=30119;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=yjp31702;PWD=EGg6eYAGQNUeO2dY",'','')
 
 import smtplib, ssl
 ## email.mime subclasses
