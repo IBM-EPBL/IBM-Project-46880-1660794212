@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: job-portal-container
-          image: jp.icr.io/padmanaban/ims-final
+          image: uk.icr.io/invmgmt/inventorymgmt
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
