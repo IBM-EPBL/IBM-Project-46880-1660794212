@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-app-container
-          image: flask-app-testing
+          image: uk.icr.io/invmgmt/inventorymgmt
           imagePullPolicy: Never
           ports:
             - containerPort: 5000
